@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+nav {
+    background-color: #76f8f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.mag {
+    width: 20px;
+}
+
+.mag:hover {
+    cursor: pointer;
+}
+
+.menus-container {
+    display: flex;
+    gap: 20px;
+}
+
+li:hover {
+    color: rgb(234, 226, 226);
+    cursor: pointer;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #037170;
+    align-items: center;
+    padding: 10px;
+}
+
+.Hero {
+    width: 400px;
+}
+
+.title {
+    font-size: 80PX;
+    font-weight: 70PX;
+    color: rgb(14, 14, 14);
+}
+
+.des {
+    font-size: 20px;
+    font-weight: 10px;
+    color: white;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(218, 247, 247);
+    color: black;
+    font-size: 20px;
+}
+
+.btn:hover {
+    color: rgb(65, 63, 63);
+    cursor: pointer;
+}
+
+.content {
+    background-color: #d2f1f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.style {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 9999px
+}
+
+.right {
+    background-color: #037170;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/*
+.service1 {
+    background: white;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+.service2 {
+    background: white;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+.service3 {
+    background: white;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+
+.service4 {
+    background: white;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+
+}
+.row{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.cell {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+.right1 {
+    display: flex;
+    gap: 20px;
+    
+ 
+}
+ */
+.s1 {
+    background: rgb(241, 231, 231);
+    text-align: center;
+    width: 150px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.s2 {
+    background: rgb(241, 231, 231);
+    text-align: center;
+    width: 150px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.s3 {
+    background: rgb(241, 231, 231);
+    text-align: center;
+    width: 150px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.s4 {
+    background: rgb(241, 231, 231);
+    text-align: center;
+    width: 150px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.service {
+    display: flex;
+    gap: 500px;
+    background-color: aquamarine;
+
+}
+
+.r {
+    margin-top: 20px;
+    align-items: center;
+    display: table;
+    gap: 20px;
+}
+
+.right1 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+}
+
+.right2 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.l {
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+
+.head {
+    font-size: 80px;
+}
+
+.describe {
+    font-size: 30px;
+}
+.review{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+}
+.rev1{
+    background: white;
+    text-align: center;
+    width: 250px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 4px 4px 8px gray;
+}
+.rev2{
+    background: white;
+    text-align: center;
+    width: 250px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 4px 4px 8px gray;
+}
+.client{
+    font-size: 80px;
+    text-align: center;
+}
