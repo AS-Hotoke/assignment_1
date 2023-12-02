@@ -29,7 +29,7 @@ nav {
 }
 
 li:hover {
-    color: rgb(234, 226, 226);
+    color: rgb(98, 95, 95);
     cursor: pointer;
 }
 
@@ -58,6 +58,8 @@ li:hover {
 }
 
 .btn {
+    border-radius: 10px;
+    padding: 10px;
     margin-top: 30px;
     margin-bottom: 20px;
     background-color: rgb(218, 247, 247);
@@ -95,61 +97,7 @@ li:hover {
 }
 
 
-/*
-.service1 {
-    background: white;
-    text-align: center;
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
 
-}
-
-.service2 {
-    background: white;
-    text-align: center;
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
-
-}
-
-.service3 {
-    background: white;
-    text-align: center;
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
-
-}
-
-.service4 {
-    background: white;
-    text-align: center;
-    height: 150px;
-    width: 150px;
-    border-radius: 10px;
-
-}
-.row{
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
-.cell {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-  }
-.right1 {
-    display: flex;
-    gap: 20px;
-    
- 
-}
- */
 .s1 {
     background: rgb(241, 231, 231);
     text-align: center;
@@ -225,12 +173,14 @@ li:hover {
 .describe {
     font-size: 30px;
 }
-.review{
-    background-color: beige;
+
+.review {
+    background-color: whitesmoke;
     display: flex;
     justify-content: space-around;
 }
-.rev1{
+
+.rev1 {
     background: white;
     text-align: center;
     width: 250px;
@@ -238,7 +188,8 @@ li:hover {
     margin: auto;
     box-shadow: 4px 4px 8px gray;
 }
-.rev2{
+
+.rev2 {
     background: white;
     text-align: center;
     width: 250px;
@@ -246,7 +197,112 @@ li:hover {
     margin: auto;
     box-shadow: 4px 4px 8px gray;
 }
-.client{
+
+.client {
+    background-color: whitesmoke;
     font-size: 80px;
     text-align: center;
+}
+
+.image {
+    display: flex;
+}
+
+.image1 {
+    display: flex;
+}
+
+.c {
+    background-color: whitesmoke;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.but1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.btn1 {
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #037170;
+    color: whitesmoke;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.btn1:hover {
+    color: rgb(65, 63, 63);
+    cursor: pointer;
+}
+
+.b1:hover {
+    color: rgb(65, 63, 63);
+    cursor: pointer;
+}
+
+.b1 {
+    margin-top: 15px;
+    background-color: #037170;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.i {
+    height: 15px;
+    width: 15px;
+    border-radius: 10%;
+}
+
+.ques {
+    padding: 20px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.logo1 {
+    width: 200px;
+}
+
+.last {
+    background-color: #02a9a6;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.last1 {
+    display: flex;
+    color: white;
+    gap: 20px;
+
+}
+
+.icon {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.final:hover {
+    color: rgb(53, 51, 51);
+    cursor: pointer;
+}
+
+.i1 {
+    color: rgb(53, 51, 51);
+    cursor: pointer;
 }
