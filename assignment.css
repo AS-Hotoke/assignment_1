@@ -135,7 +135,7 @@ li:hover {
 
 .service {
     display: flex;
-    gap: 500px;
+    gap: 350px;
     background-color: aquamarine;
 
 }
@@ -187,6 +187,7 @@ li:hover {
     padding: 30px;
     margin: auto;
     box-shadow: 4px 4px 8px gray;
+
 }
 
 .rev2 {
@@ -196,6 +197,7 @@ li:hover {
     padding: 30px;
     margin: auto;
     box-shadow: 4px 4px 8px gray;
+
 }
 
 .client {
@@ -215,7 +217,6 @@ li:hover {
 .c {
     background-color: whitesmoke;
     padding: 20px;
-
     display: flex;
     justify-content: space-around;
 }
